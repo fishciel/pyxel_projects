@@ -1,0 +1,57 @@
+Q: What is Big O Notation?
+A: Big O Notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In computer science, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows.
+
+Q: What is the time complexity of binary search?
+A: O(log n) - Binary search has a logarithmic time complexity because it divides the search interval in half with each comparison.
+
+Q: What is the difference between a stack and a queue?
+A: A stack follows Last In First Out (LIFO) principle where elements are added and removed from the same end. A queue follows First In First Out (FIFO) principle where elements are added at one end and removed from the other end.
+
+Q: What is a linked list?
+A: A linked list is a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence. Unlike arrays, linked lists don't require contiguous memory allocation.
+
+Q: What is a hash table and what is its average time complexity for search, insert, and delete operations?
+A: A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. The average time complexity for search, insert, and delete operations in a hash table is O(1), constant time.
+
+Q: Explain the difference between DFS and BFS traversal.
+A: Depth-First Search (DFS) explores as far as possible along each branch before backtracking, using a stack. Breadth-First Search (BFS) explores all neighbors at the present depth before moving to nodes at the next depth level, using a queue.
+
+Q: What is recursion and when should it be used?
+A: Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem. It should be used when a problem can be broken down into smaller, similar sub-problems, particularly in algorithms like tree traversal, divide and conquer algorithms, and dynamic programming.
+
+Q: What is dynamic programming?
+A: Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems. It is applicable when subproblems overlap and have optimal substructure property, where the optimal solution to the problem can be constructed from optimal solutions of its subproblems.
+
+Q: What is a binary search tree (BST)?
+A: A binary search tree is a binary tree data structure where each node has at most two children, and for each node, all elements in the left subtree are less than the node, and all elements in the right subtree are greater than the node.
+
+Q: What is the space complexity of an algorithm?
+A: Space complexity is a measure of the amount of memory an algorithm needs to run as a function of the size of the input. It includes both auxiliary space (extra space used by the algorithm) and space used by the input.
+
+Q: What is a heap data structure?
+A: A heap is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (value) of P is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the key of C.
+
+Q: What is an AVL tree?
+A: An AVL tree is a self-balancing binary search tree where the difference between heights of left and right subtrees cannot be more than one for all nodes. After each operation, the tree is rebalanced if needed to maintain this property.
+
+Q: What is the difference between a greedy algorithm and dynamic programming?
+A: A greedy algorithm makes locally optimal choices at each step with the hope of finding a global optimum. Dynamic programming solves problems by breaking them down into overlapping subproblems and combining their solutions, often using memoization to avoid redundant calculations.
+
+Q: What is a graph data structure?
+A: A graph is a non-linear data structure consisting of nodes (vertices) and edges that connect them. Graphs can be directed or undirected and can be used to represent many types of relationships and networks.
+
+Q: What is the quicksort algorithm and what is its average time complexity?
+A: Quicksort is a divide-and-conquer sorting algorithm that works by selecting a 'pivot' element and partitioning the array around the pivot. Its average time complexity is O(n log n), though its worst-case performance is O(n²).
+
+Q: What is the difference between merge sort and quicksort?
+A: Merge sort always divides the array into equal halves and then combines the sorted subarrays, with a consistent O(n log n) time complexity. Quicksort partitions the array based on a pivot element, with an average O(n log n) time complexity but a worst-case O(n²). Merge sort typically requires more memory (O(n)) whereas quicksort can be implemented with O(log n) auxiliary space.
+
+Q: What is a trie data structure?
+A: A trie, also called a prefix tree, is a tree-like data structure used to store a dynamic set or associative array where the keys are usually strings. It's particularly useful for implementing autocomplete and spell check features.
+
+Q: What is the time complexity of inserting an element into a binary heap?
+A: O(log n) - Insertion into a binary heap involves adding the element at the end and then "bubbling up" to maintain the heap property, which takes logarithmic time.
+
+Q: What is a priority queue?
+A: A priority queue is an abstract data type similar to a regular queue but where each element has a "priority" associated with it. Elements with higher priorities are dequeued before elements with lower priorities.
+
